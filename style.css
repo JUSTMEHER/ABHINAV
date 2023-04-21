@@ -30,7 +30,7 @@ body{
     box-sizing: border-box;
 
 position: absolute;
-width: 1440px;
+width: 100vw;
 height: 80px;
 left: 0px;
 top: 0px;
@@ -86,7 +86,7 @@ z-index: -1;
     flex-direction: column;
     position: absolute;
     top:450px;
-    width:1440px;
+    width:100vw;
 }
 .hobbies{
     font-size: 22px;
@@ -112,14 +112,7 @@ z-index: -1;
         left:500px;
         top:110px;
     }
-    .nav{
-        position: absolute;
-        width: 980px;
-    }
-    .first{
-        position: absolute;
-        width:980px;
-    }
+
     .about{
         position: absolute;
         left:850px;
@@ -149,7 +142,6 @@ z-index: -1;
     .first{
         position: absolute;
         top:460px;
-        width:970px;
     }
     .text1{
         position: absolute;
@@ -172,9 +164,7 @@ z-index: -1;
         top:430px;
         left:0px;
     }
-    .nav{
-        width:600px;
-    }
+
     .about{
         visibility: hidden;
         
@@ -182,7 +172,6 @@ z-index: -1;
     .first{
         position: absolute;
         top:680px;
-        width:600px;
     }
     .text1{
         position: absolute;
@@ -198,55 +187,30 @@ z-index: -1;
     .top{
         font-size: 27px;
     }
-    .first{
-        width:405px;
-    }
-    .nav{
-        width:405px;
-    }
+
 }
 @media(max-width:390px){
     .top{
         font-size: 26px;
     }
-    .first{
-        width:390px;
-    }
-    .nav{
-        width:390px;
-    }
+
 }
 @media(max-width:365px){
     .top{
         font-size:25px;
     }
-    .first{
-        width:365px;
-    }
-    .nav{
-        width:365px;
-    }
+
     
 }
 @media(max-width:335px){
     .top{
         font-size:24px;
     }
-    .first{
-        width:335px;
-    }
-    .nav{
-        width:335px;
-    }
+
 }
 @media(max-width:322px){
     .top{
         font-size:22px;
     }
-    .first{
-        width:322px;
-    }
-    .nav{
-        width:322px;
-    }
+
 }
