@@ -11,9 +11,13 @@ h4,p{
     
 
 }
+html, body {
+    overflow-x: hidden;
+  }
 body{
     background: #1E1E1E;
     overflow: hidden;
+    position: relative
 }
 #container{
     display:flex;
