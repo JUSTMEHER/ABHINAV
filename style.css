@@ -11,13 +11,8 @@ h4,p{
     
 
 }
-html, body {
-    overflow-x: hidden;
-  }
 body{
     background: #1E1E1E;
-    overflow: hidden;
-    position: relative
 }
 #container{
     display:flex;
@@ -98,7 +93,7 @@ z-index: -1;
 }
 .mc,.tech{
     font-size: 18px;
-    margin-left: 20px;
+    margin-left: 10px;
 
 }
 .name:hover{
