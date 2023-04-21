@@ -1,0 +1,138 @@
+.top,.down,.footer{
+    font-family: sans-serif;
+    color: white;
+    font-family: 'Space Grotesk', sans-serif;
+}
+h4,p{
+    font-family: 'Space Grotesk', sans-serif;
+    color: white;
+    font-weight:bolder;
+
+    
+
+}
+body{
+    background: #1E1E1E;
+}
+#container{
+    display:flex;
+    flex-direction: row;
+}
+.name{
+    text-decoration: none;
+    color:white;
+    font-size: x-large;
+    position: absolute;
+    top:25px;
+}
+.nav{
+    box-sizing: border-box;
+
+position: absolute;
+width: 2816px;
+height: 80px;
+left: 0px;
+top: 0px;
+
+background: #282828;
+border-bottom: 1px solid #9D9D9D;
+z-index: -1;
+}
+.about{
+    position: absolute;
+    left:1300px;
+    font-size: larger;
+}
+.img1{
+    width:500px;
+    height:320px;
+    position: absolute;
+    right:50px;
+    top:110px;
+    border-radius: 10px;
+}
+.hello{
+    text-decoration: none;
+    text-decoration: underline;
+    color:white;
+    display:flex;
+    flex-direction: column;
+    position: absolute;
+    top:405px;
+    font-size: 18px;
+}
+#top{
+    display:flex;
+    flex-direction: column;
+    
+    
+}
+.text1{
+    display:flex;
+    flex-direction: column;
+    position: absolute;
+    top:700px;
+}
+.top{
+    position: absolute;
+    top:50px;
+    font-size: 28px;
+    
+}
+.first{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top:700px;
+    width:2321px;
+}
+
+
+
+@media(max-width:980px){
+    .img1{
+        width: 400px;
+        height:290px;
+        position: absolute;
+        right:50px;
+        top:110px;
+    }
+}
+@media(max-width:900px){
+   .img1{
+    position: absolute;
+    top:100px;
+    right:-250px
+   }
+}
+@media(max-width:600px){
+    .img1{
+        width:300px;
+        height:200px;
+        position: relative;
+        top:430px;
+        right:-30px;
+       
+
+    }
+}
+@media(max-width:380px){
+    .top{
+        font-size: 26px;
+    }
+}
+@media(max-width:355px){
+    .top{
+        font-size:25px;
+    }
+}
+@media(max-width:335px){
+    .top{
+        font-size:24px;
+    }
+}
+@media(max-width:322px){
+    .top{
+        font-size:22px;
+    }
+}
