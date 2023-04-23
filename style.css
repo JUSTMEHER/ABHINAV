@@ -285,6 +285,9 @@ z-index: -1;
         top:680px;
         width:600px;
     }
+    .second{
+        bottom:180px;
+    }
     .text1{
         position: absolute;
         top:750px;
