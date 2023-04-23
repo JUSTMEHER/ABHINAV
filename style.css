@@ -179,6 +179,14 @@ z-index: -1;
         position: absolute;
         right:300px;
     }
+    .fa-instagram {
+        position: absolute;
+        left:350px;
+      }
+      .fa-twitter {
+        position: absolute;
+        left:440px;
+      }
 }
 @media(max-width:600px){
     .img1{
@@ -191,6 +199,21 @@ z-index: -1;
     .nav{
         width:600px;
     }
+    .nav1{
+        position: absolute;
+        bottom:-400px;
+        left:-10px;
+    }
+    .fa-instagram {
+
+        position: absolute;
+        left:250px;
+      }
+      .fa-twitter {
+
+        position: absolute;
+        left:330px;
+      }
     .about{
         visibility: hidden;
         
@@ -210,6 +233,21 @@ z-index: -1;
     font-size: 20px;
 }
 }
+@media(max-width:430px){
+    .fa-instagram {
+
+        position: absolute;
+        left:150px;
+      }
+      .fa-twitter {
+
+        position: absolute;
+        left:240px;
+      }  
+      .nav1{
+        width:430px;
+      }
+}
 @media(max-width:405px){
     .top{
         font-size: 27px;
@@ -220,6 +258,15 @@ z-index: -1;
     .nav{
         width:405px;
     }
+    .fa-instagram {
+
+        position: absolute;
+        left:160px;
+      }
+      .fa-twitter {
+        position: absolute;
+        left:240px;
+      }
 }
 @media(max-width:390px){
     .top{
@@ -242,6 +289,14 @@ z-index: -1;
     .nav{
         width:365px;
     }
+    .fa-instagram {
+        position: absolute;
+        left:130px;
+      }
+      .fa-twitter {
+        position: absolute;
+        left:210px;
+      }
     
 }
 @media(max-width:335px){
