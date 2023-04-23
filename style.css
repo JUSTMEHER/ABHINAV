@@ -19,6 +19,7 @@ body {
 #container{
     display:flex;
     flex-direction: row;
+    margin-left: 10px;
 }
 .name{
     text-decoration: none;
@@ -26,7 +27,6 @@ body {
     font-size: x-large;
     position: absolute;
     top:25px;
-    margin-left: 10px;
 }
 .nav{
     box-sizing: border-box;
@@ -41,40 +41,6 @@ background: #282828;
 border-bottom: 1px solid #9D9D9D;
 z-index: -1;
 }
-.nav1{
-    box-sizing: border-box;
-    width:1450px;
-    height:85px;
-    background: #282828;
-    position: absolute;
-    bottom:-120px;
-    left:-10px;
-}
-.fa {
-    display: flex;
-    padding: 20px;
-    font-size: 30px;
-    width: 25px;
-    text-align: center;
-    text-decoration:none;
-    border-radius: 30%;
-    position: absolute;
-    left:630px;
-    bottom:20px;
-  }
-  .fa:hover {
-    opacity: 0.7;
-  }
-  .fa-instagram {
-    background: #1E1E1E;
-    color: white;
-  }
-  .fa-twitter {
-    background: #1E1E1E;
-    color: white;
-    position: absolute;
-    left:720px;
-  }
 .yo{
     color:orange;
 }
@@ -109,7 +75,6 @@ z-index: -1;
     position: absolute;
     top:405px;
     font-size: 18px;
-    margin-left: 10px;
 }
 .hello:hover{
     color:orange;
@@ -125,13 +90,11 @@ z-index: -1;
     flex-direction: column;
     position: absolute;
     top:500px;
-    margin-left: 10px;
 }
 .top{
     position: absolute;
     top:50px;
     font-size: 28px;
-    margin-left: 10px;
     
 }
 .first{
@@ -140,15 +103,6 @@ z-index: -1;
     position: absolute;
     top:450px;
     width:1440px;
-    opacity: .7;
-}
-.second{
-    width:450px;
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    bottom:210px;
-    opacity: .7;
 }
 .hobbies{
     font-size: 22px;
@@ -195,11 +149,6 @@ z-index: -1;
    }
 }
 @media(max-width:830px){
-    
-    body{
-        overflow-x:scroll;
-        
-    }
     .img1{
         width:400px;
         height:300px;
@@ -230,52 +179,18 @@ z-index: -1;
         position: absolute;
         right:300px;
     }
-    .fa-instagram {
-        position: absolute;
-        left:350px;
-      }
-      .fa-twitter {
-        position: absolute;
-        left:440px;
-      }
-      .nav{
-        width: 1000px;
-      }
-      .nav1{
-        width:1000px;
-      }
 }
 @media(max-width:600px){
-    body{
-        overflow-x: hidden;
-    }
-    
     .img1{
         width:300px;
         height:200px;
         position: relative;
         top:430px;
         left:0px;
-        margin-left: 10px;
     }
     .nav{
         width:600px;
     }
-    .nav1{
-        position: absolute;
-        bottom:-400px;
-        left:-10px;
-    }
-    .fa-instagram {
-
-        position: absolute;
-        left:250px;
-      }
-      .fa-twitter {
-
-        position: absolute;
-        left:330px;
-      }
     .about{
         visibility: hidden;
         
@@ -284,9 +199,6 @@ z-index: -1;
         position: absolute;
         top:680px;
         width:600px;
-    }
-    .second{
-        bottom:180px;
     }
     .text1{
         position: absolute;
@@ -298,21 +210,6 @@ z-index: -1;
     font-size: 20px;
 }
 }
-@media(max-width:430px){
-    .fa-instagram {
-
-        position: absolute;
-        left:150px;
-      }
-      .fa-twitter {
-
-        position: absolute;
-        left:240px;
-      }  
-      .nav1{
-        width:430px;
-      }
-}
 @media(max-width:405px){
     .top{
         font-size: 27px;
@@ -323,15 +220,6 @@ z-index: -1;
     .nav{
         width:405px;
     }
-    .fa-instagram {
-
-        position: absolute;
-        left:160px;
-      }
-      .fa-twitter {
-        position: absolute;
-        left:240px;
-      }
 }
 @media(max-width:390px){
     .top{
@@ -354,14 +242,6 @@ z-index: -1;
     .nav{
         width:365px;
     }
-    .fa-instagram {
-        position: absolute;
-        left:130px;
-      }
-      .fa-twitter {
-        position: absolute;
-        left:210px;
-      }
     
 }
 @media(max-width:335px){
@@ -386,3 +266,37 @@ z-index: -1;
         width:322px;
     }
 }
+.nav1{
+    box-sizing: border-box;
+    width:1450px;
+    height:85px;
+    background: #282828;
+    position: absolute;
+    bottom:-120px;
+    left:-10px;
+}
+.fa {
+    display: flex;
+    padding: 20px;
+    font-size: 30px;
+    width: 25px;
+    text-align: center;
+    text-decoration:none;
+    border-radius: 30%;
+    position: absolute;
+    left:630px;
+    bottom:20px;
+  }
+  .fa:hover {
+    opacity: 0.7;
+  }
+  .fa-instagram {
+    background: #1E1E1E;
+    color: white;
+  }
+  .fa-twitter {
+    background: #1E1E1E;
+    color: white;
+    position: absolute;
+    left:720px;
+  }
