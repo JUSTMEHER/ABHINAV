@@ -7,11 +7,10 @@ body {
     overflow-y: auto;
     margin: 0;
     padding: 0;
-    visibility: hidden;
     
 }
 .develop{
-    visibility: visible;
+    visibility: hidden;
 }
 
 /* Navigation Styles */
@@ -23,7 +22,7 @@ body {
     position: fixed;
     top: 0;
     left: 0;
-    z-index: -1;
+    z-index: 1;
 }
 
 .nav1 {
@@ -62,8 +61,13 @@ body {
     text-decoration: none;
     color: white;
     font-size: x-large;
-    position: absolute;
-    top: 25px;
+    z-index: 2;
+    position: fixed;
+    top:25px;
+    margin-left: -220px;
+}
+.yo{
+    color: orange;
 }
 .name:hover{
     color:orange;
@@ -82,7 +86,7 @@ body {
     max-width: 500px;
     height: auto;
     border-radius: 10px;
-    z-index: -2;
+    z-index: -1;
 }
 
 
@@ -99,10 +103,19 @@ body {
 .text {
     text-align: center;
 }
+.text1{
+    font-size: 23px;
+}
+.first{
+    margin-left: -380px;
+    margin-right: -380px;
+}
 
 .top {
-    font-size: 28px;
+    font-size: 30px;
     margin: 10px;
+    margin-top: -120px;
+    z-index: -20;
 }
 
 .hello {
@@ -119,7 +132,7 @@ body {
     .img1 {
         max-width: 400px;
         z-index: -10;
-        margin-top: -100px;
+        margin-top: 0px;
     }
     .nav {
         z-index: -1;
@@ -149,7 +162,7 @@ body {
         top: 0;
         right: 0;
         margin-left: 10px;
-        margin-top: -100px;
+        margin-top: 00px;
         z-index: -10;
     }
     .text1 {
@@ -198,12 +211,15 @@ body {
 
 @media (max-width: 600px) {
     .img1 {
-        margin-top: -110px;
+        margin-top: -10px;
         max-width: 300px;
         margin-left: 0;
     }
     .nav {
         width: 100%;
+    }
+    .text1{
+        font-size: 19px;
     }
     .nav1 {
         position: relative;
@@ -314,7 +330,7 @@ body {
     position: fixed;
     top: 0;
     left: 0;
-    z-index: -1;
+    z-index: 1;
 }
 
 .nav1 {
