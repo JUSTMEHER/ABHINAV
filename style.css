@@ -251,6 +251,10 @@ body {
     .name{
         margin-left: -150px;
     }
+    .first{
+        margin-left: 0;
+        margin-right: 0px;
+    }
 }
 
 @media (max-width: 430px) {
